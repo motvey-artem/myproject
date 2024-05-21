@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header__logo">
+        <a href="#">
+          <img src="./images/logo.svg" alt="CARS" />
+        </a>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li class="nav__link_active">Главная</li>
+          <li>Наши услуги</li>
+          <li>О компании</li>
+          <li>Контакты</li>
+        </ul>
+      </nav>
+      <div class="header__lng">
+        <span class="header__lng_active">En</span>
+        <span>Ru</span>
+      </div>
+    </header>
+    <main>
+      <div class="intro">
+        <div class="container">
+          <h1>МЫ ПОДДЕРЖИВАЕМ ВАС В ПУТИ БЛАГОДАРЯ СЕРВИСУ,КОТОРОМУ ВЫ МОЖЕТЕ ДОВЕРЯТЬ</h1>
+          <button>Показать больше</button>
+        </div>
+        <div class="intro__blocks">
+          <div class="intro__block">
+            <p>Для справки 8-968-352-28-21</p>
+            <span>Бесплатные звонки по всей России</span>
+          </div>
+          <div class="intro__block intro__block-calendar">
+            <p>Назначить бесплатную встречу</p>
+            <span>Бесплатная диагностика и проверка тормозов</span>
+          </div>
+          <div class="intro__block intro__block-location">
+            <p>Найди нас на карте</p>
+            <span>г.Москва у.Маяковская д.21</span>
+          </div>
+        </div>
+      </div>
+      <div class="services container">
+        <h2>Наши услуги</h2>
+        <a href="#"> Все сервисы компании</a>
+        <div class="services__blocks">
+          <div class="service__block">
+            <img src="./images/diagnostic.png" alt="diagnostic" />
+            <div class="overlay"></div>
+            <p>Диагностика</p>
+          </div>
+          <div class="service__block">
+            <img src="./images/tires.png" alt="tires and wheels" />
+            <div class="overlay"></div>
+            <p> Шины и подошвы</p>
+          </div>
+          <div class="service__block">
+            <img src="./images/engine.png" alt="engine" />
+            <div class="overlay"></div>
+            <p>Двигатели</p>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <div class="about__inner container">
+          <div class="about__info">
+            <h2>
+              МЫ ПОНИМАЕМ, НАСКОЛЬКО ВАЖНО НАЙТИ ПРАВИЛЬНЫЙ АВТОСЕРВИС
+            </h2>
+            <p>
+              Ремонт и техническое обслуживание автомобилей могут быть дорогостоящими, и никто не хочет
+платить за устранение повреждений, вызванных некачественным ремонтом. Когда
+вы доставите свой автомобиль в наш автомагазин, вам не придется беспокоиться
+, потому что наш персонал состоит из сертифицированных специалистов ASE, которые
+позаботятся о том, чтобы у вас был безопасный и надежный автомобиль.
+            </p>
+            <a href="#">ПОДРОБНЕЕ О НАС</a>
+          </div>
+          <div class="about__img">
+            <img src="./images/service.png" alt="service" />
+          </div>
+        </div>
+      </div>
+      <div class="process container">
+        <h2>Быстро и легко</h2>
+        <p>Наш рабочий процесс</p>
+        <div class="process__blocks">
+          <div class="process_block">
+            <p>01.ЗАПРОСИТЕ ВАШЕ ЦЕНОВОЕ ПРЕДЛОЖЕНИЕ</p>
+            <span>Мы будем там, когда вы больше всего будете в нас нуждаться</span>
+          </div>
+          <div class="process_block">
+            <p>02. ПРИЕЗЖАЙТЕ НА СВОЕМ АВТОМОБИЛЕ</p>
+            <span> В душе мы любители автомобилей </span>
+          </div>
+          <div class="process_block">
+            <p>03.Работают одни скуфы</p>
+            <span>Обращаемся с клиентами как в деревне</span>
+          </div>
+        </div>
+      </div>
+      <div class="contacts">
+        <div class="container">
+          <h2 class="contacts__title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+          <form class="contacts__form" action="">
+            <div class="form__row">
+              <div class="form__group">
+                <input type="text" class="input" placeholder=" " />
+                <label for="" class="label"> Имя </label>
+              </div>
+              <div class="form__group">
+                <input type="text" class="input" placeholder=" " />
+                <label for="" class="label">Фамилия </label>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__group">
+                <input type="email" class="input" placeholder=" " />
+                <label for="" class="label"> Почта </label>
+              </div>
+              <div class="form__group">
+                <input type="tel" class="input" placeholder=" " />
+                <label for="" class="label"> Телефон </label>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__group">
+                <textarea class="textarea" placeholder=" " name=""></textarea>
+                <label for="" class="label"> О себе </label>
+              </div>
+            </div>
+            <button class="btn text-upper" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <p class="copyright">© 2024  MS Николаев plus  OG Холодов </p>
+          <div class="footer__soc">
+            <a href="#" class="footer__soc-link">
+              <img src="./images/linkedin.svg" alt="linkedin" />
+            </a>
+            <a href="#" class="footer__soc-link">
+              <img src="./images/facebook.svg" alt="facebook" />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              class="footer__soc-link"
+            >
+              <img src="./images/facebook.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
